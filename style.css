@@ -36,7 +36,6 @@ header{
     border-radius: 20px;
     flex-direction: column;
     position: relative;
-    padding-left: 10%;
 }
 .logo{
     position: relative;
