@@ -33,11 +33,10 @@ header{
     width: 60%;
 }
 .menu{
-    background-color: rgb(201, 201, 201);
+    background-color:  rgb(201, 201, 201);
     border-radius: 20px;
-    display: flex;
-    padding-top: 110px;
     flex-direction: column;
+    position: relative;
 
 
 }
@@ -150,27 +149,26 @@ header{
 
 .transaction-card{
     width: 100%;
-    height: auto;
-    min-height: 70px;
-    background-color: rgb(201, 201, 201);
+    height: 200px;
+    background-color:  rgb(201, 201, 201);
     margin: 4px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 20px;
+    justify-content: space-between;
+    padding: 0 20px;
     box-sizing: border-box;
 }
 .transactions{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    overflow-y: auto;
+    width: 50%;
+    height: 75%;
     
 
 }
 .quadrado-transactions{
-    height: 500px;
+    height: 30%;
     display: flex;
     flex-direction: column;
     background-color: rgb(201, 201, 201);
@@ -320,11 +318,4 @@ input{
 }
 .num{
     font-size: xx-large;
-}
-
-.chart-card{
-    height: 500px; 
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
 }
