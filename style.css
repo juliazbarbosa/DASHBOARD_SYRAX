@@ -1,4 +1,3 @@
-
 body{
     margin: 0px;
     display: flex;
@@ -37,8 +36,6 @@ header{
     border-radius: 20px;
     flex-direction: column;
     position: relative;
-
-
 }
 .logo{
     position: relative;
@@ -149,26 +146,25 @@ header{
 
 .transaction-card{
     width: 100%;
-    height: 200px;
-    background-color:  rgb(201, 201, 201);
+    height: auto;
+    min-height: 70px;
+    background-color: rgb(201, 201, 201);
     margin: 4px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    padding: 10px 20px;
     box-sizing: border-box;
 }
 .transactions{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 75%;
-    
-
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
 }
 .quadrado-transactions{
-    height: 30%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     background-color: rgb(201, 201, 201);
@@ -177,19 +173,6 @@ header{
 }
 .sub-transactions:nth-child(1){
     width: 40%;
-}
-
-.info-transactions p:first-child{
-    font-size: 16px;
-    font-weight: 600;
-    color: #222;
-    margin: 0;
-}
-
-.info-transactions p:last-child{
-    font-size: 13px;
-    color: #777;
-    margin: 0;
 }
 h3 {
     
@@ -251,8 +234,21 @@ string{
     flex-direction: column;
     display: flex;
     width: 150px;
+    font-size: small;
     justify-content: center;
     
+}
+.info-transactions p:first-child{
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
+}
+
+.info-transactions p:last-child{
+    font-size: 13px;
+    color: #777;
+    margin: 0;
 }
 .info-transactions2{
     font-size: small;
@@ -318,4 +314,10 @@ input{
 }
 .num{
     font-size: xx-large;
+}
+.chart-card{
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
 }
