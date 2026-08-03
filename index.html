@@ -81,10 +81,12 @@
                 </ul>
             </nav>
             </div>
+
             <div class="container">
                 <div class="info-card"> 
                     <b>Atualização</b>
                     <p class="especial-info">As vendas mostraram um aumento de <string>20%</string> desde a última semana</p>
+                    <p class="especial-info2">veja os dados</p>
                 </div>
 
                 <div class="info-card"> 
@@ -104,11 +106,10 @@
                     <p class="texto-card">423</p>
                     <p class="titulo-card"><string>25%</string> a mais</p>
                 </div>
-
             </div>
 
             <div class="container">
-                <div class="sub-container">
+                <div class="coluna coluna-esquerda">
                     <div class="product-card">
                         <h3>Produtos</h3>
                         <div class="produto1"> 
@@ -123,64 +124,59 @@
                             <div class="up"> <b>15%</b> a mais que mês passado</div>
                         </div>
                     </div>
-            
-                    <div class="transactions-card">
+
+                    <div class="quadrado-transactions">
+                        <h3>Transações</h3>
+                        <div class="transactions">
+                           <div class="transaction-card">
+                                <div class="icone-transacao"><i class="fa-solid fa-mobile"></i></div>
+                                <div class="info-transactions"><p><b>Iphone 14 Pro Max</b></p><p>Jul 2022 - 23:50</p></div>
+                                <div class="produtos">concluído</div>
+                           </div>
+                           <div class="transaction-card">
+                                <div class="icone-transacao"><i class="fa-solid fa-laptop"></i></div>
+                                <div class="info-transactions"><p><b>Mac Book Air</b></p><p>10 Ago 2022 - 22:00</p></div>
+                                <div class="produtos">concluído</div>
+                           </div>
+                           <div class="transaction-card">
+                                <div class="icone-transacao"><i class="fa-solid fa-tablet"></i></div>
+                                <div class="info-transactions"><p><b>Tablet Samsung</b></p><p>13 Fev 2022 - 22:00</p></div>
+                                <div class="produtos">concluído</div>
+                           </div>   
+                           <div class="transaction-card">
+                               <div class="icone-transacao"><i class="fa-solid fa-mobile"></i></div>
+                               <div class="info-transactions"><p><b>Smartphone Samsung</b></p><p>03 Mai 2022 - 09:45</p></div>
+                                <div class="produtos">concluído</div>
+                           </div>
+                           <div class="transaction-card">
+                                <div class="icone-transacao"><i class="fa-solid fa-radio"></i></div>
+                                <div class="info-transactions"><p><b>JBL Caixa de Som</b></p><p>11 Abr 2022 - 17:00</p></div>
+                                <div class="produtos">concluído</div>
+                           </div>
+                           <div class="transaction-card">
+                                <div class="icone-transacao"><i class="fa-solid fa-clock"></i></div>
+                                <div class="info-transactions"><p><b>Apple Watch</b></p><p>22 Abr 2022 - 20:07</p></div>
+                                <div class="produtos">concluído</div>
+                           </div>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="sub-container">
-                    <h3>Análises</h3>
-                    <div class="chart-card">
-                        <canvas id="myChart"></canvas>
+
+                <div class="coluna coluna-direita">
+                    <div class="sub-container">
+                        <h3>Análises</h3>
+                        <div class="chart-card">
+                            <canvas id="myChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="sub-container">
+                        <h3>Análises</h3>
+                        <div class="chart-card">
+                            <canvas id="myChart2"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
-        <div class="container">
-            <div class="sub-container">
-                <div class="quadrado-transactions">
-                    <h3>Transações</h3>
-                    
-                    <div class="transactions">
-                       <div class="transaction-card">
-                            <div class="icone-transacao"><i class="fa-solid fa-mobile"></i></div>
-                            <div class="info-transactions"><p><b>Iphone 14 Pro Max</b></p><p>Jul 2022 - 23:50</p></div>
-                            <div class="produtos">concluído</div>
-                       </div>
-                       <div class="transaction-card">
-                            <div class="icone-transacao"><i class="fa-solid fa-laptop"></i></div>
-                            <div class="info-transactions"><p><b>Mac Book Air</b></p><p>10 Ago 2022 - 22:00</p></div>
-                            <div class="produtos">concluído</div>
-                       </div>
-                       <div class="transaction-card">
-                            <div class="icone-transacao"><i class="fa-solid fa-tablet"></i></div>
-                            <div class="info-transactions"><p><b>Tablet Samsung</b></p><p>13 Fev 2022 - 22:00</p></div>
-                            <div class="produtos">concluído</div>
-                       </div>   
-                       <div class="transaction-card">
-                           <div class="icone-transacao"><i class="fa-solid fa-mobile"></i></div>
-                           <div class="info-transactions"><p><b>Smartphone Samsung</b></p><p>03 Mai 2022 - 09:45</p></div>
-                            <div class="produtos">concluído</div>
-                       </div>
-                       <div class="transaction-card">
-                            <div class="icone-transacao"><i class="fa-solid fa-radio"></i></div>
-                            <div class="info-transactions"><p><b>JBL Caixa de Som</b></p><p>11 Abr 2022 - 17:00</p></div>
-                            <div class="produtos">concluído</div>
-                       </div>
-                       <div class="transaction-card">
-                            <div class="icone-transacao"><i class="fa-solid fa-clock"></i></div>
-                            <div class="info-transactions"><p><b>Apple Watch</b></p><p>22 Abr 2022 - 20:07</p></div>
-                            <div class="produtos">concluído</div>
-                       </div>
-                    </div>
-                </div>
-            </div>            
-            <div class="sub-container">
-                <h3>Análises</h3>
-                <div class="chart-card">
-                    <canvas id="myChart2"></canvas>
-                </div>
-            </div>
-        </div>
         </main>             
     </body>
     <script src="script.js"></script>
