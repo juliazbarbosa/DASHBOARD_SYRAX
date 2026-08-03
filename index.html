@@ -1,12 +1,11 @@
-<html>
+<html lang="pt-br">
     <head>
-     <title>Dashboard</title>
+     <title>Painel Syrax</title>
      <link href="style.css" rel="stylesheet" type="text/css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;700&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
     <body>
@@ -21,10 +20,10 @@
             <h4>Administrador</h4>
 
             <ul>
-                <li>
+                <li class="ativo">
                     <a href="#">
                         <i class="fa-brands fa-codepen"></i>
-                        Dashboard
+                        Painel
                     </a>
                 </li>
                 <li>
@@ -46,7 +45,7 @@
             <ul>
                 <li>
                     <i class="fa-regular fa-handshake"></i> 
-                    Roles
+                    Funções
                 </li>
                 <li>
                     <i class="fa-solid fa-code"></i>
@@ -54,7 +53,7 @@
                 </li>
                 <li>
                     <i class="fa-solid fa-gears"></i>
-                    Prefências
+                    Preferências
                 </li>
             </ul>
 
@@ -64,11 +63,11 @@
                <div class="input">
                  <div class="lupa"><i class="fa-solid fa-magnifying-glass fa-2xl"></i>
                 </div> 
-                <input type="text"></div>
+                <input type="text" placeholder="Buscar..."></div>
 
                 <div class="perfil">
                     <div class="icon">
-                        <img src="img/targaryen.jpg">
+                        <img src="img/targaryen.jpg" alt="Foto de perfil">
                     </div>
                     <p>Renya Targaryen</p>
                 </div>
@@ -77,8 +76,8 @@
             <div class="breadcrumb">
                 <nav aria-label="Breadcrumb" class="breadcrumb">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><span aria-current="page">Dashboard</span></li>
+                    <li><a href="#">Início</a></li>
+                    <li><span aria-current="page">Painel</span></li>
                 </ul>
             </nav>
             </div>
@@ -90,14 +89,14 @@
                 </div>
 
                 <div class="info-card"> 
-                    <b>Net Revenue</b>
-                    <p class="texto-card">R$123,000</p> 
+                    <b>Receita Líquida</b>
+                    <p class="texto-card">R$123.000</p> 
                     <p class="titulo-card"><string>5%</string> a mais que mês passado</p>
                 </div>
 
                 <div class="info-card">  
                     <b>Vendas Semanais</b>
-                    <p class="texto-card">R$24,000</p> 
+                    <p class="texto-card">R$24.000</p> 
                     <p class="titulo-card"><string>75%</string> da meta semanal</p>
                 </div>
         
@@ -114,15 +113,15 @@
                     <div class="product-card">
                         <h3>Produtos</h3>
                         <div class="produto1"> 
-                            <div class="pro1">Product launched</div>
+                            <div class="pro1">Produtos lançados</div>
                             <div class="num"><b>433</b></div>
-                            <div class="up"> <b>AVG 12</b> product add</div>
+                            <div class="up"> <b>Média de 12</b> produtos adicionados</div>
                         </div>
                         
                         <div class="produto2">
-                            <div class="pro1">Product sold</div>
+                            <div class="pro1">Produtos vendidos</div>
                             <div class="num"><b>233</b></div>
-                            <div class="up"> <b>15 % </b> last month</div>
+                            <div class="up"> <b>15%</b> a mais que mês passado</div>
                         </div>
                     </div>
             
@@ -131,7 +130,7 @@
                 </div>
                 
                 <div class="sub-container">
-                    <h3>Analises</h3>
+                    <h3>Análises</h3>
                     <div class="chart-card">
                         <canvas id="myChart"></canvas>
                     </div>
@@ -144,40 +143,40 @@
                     
                     <div class="transactions">
                        <div class="transaction-card">
-                            <div><i class="fa-solid fa-mobile fa-2xl" style="color: #ff780a;"></i></div>
-                            <div class="info-transactions"><p style="width:150px;"> Iphone 14 Pro Max </p><p> Jul 2022 - 11:50PM</p></div>
-                            <div class="produtos"> completed </div>
+                            <div class="icone-transacao"><i class="fa-solid fa-mobile"></i></div>
+                            <div class="info-transactions"><p><b>Iphone 14 Pro Max</b></p><p>Jul 2022 - 23:50</p></div>
+                            <div class="produtos">concluído</div>
                        </div>
                        <div class="transaction-card">
-                            <div><i class="fa-solid fa-laptop fa-2xl" style="color: #ff780a;"></i></div>
-                            <div class="info-transactions"><p style="width:150px"><b> Mac Book Air </b></p><p> 10 Ago 2022  - 10:00PM</p></div>
-                            <div class="produtos">completed</div>
+                            <div class="icone-transacao"><i class="fa-solid fa-laptop"></i></div>
+                            <div class="info-transactions"><p><b>Mac Book Air</b></p><p>10 Ago 2022 - 22:00</p></div>
+                            <div class="produtos">concluído</div>
                        </div>
                        <div class="transaction-card">
-                            <div><i class="fa-solid fa-tablet fa-2xl" style="color: #ff780a;"></i></div>
-                            <div class="info-transactions"><p style="width:150px";>Tablet Samsung </p><p>13 Fev 2022 - 10:00PM</p></div>
-                            <div class="produtos">completed</div>
+                            <div class="icone-transacao"><i class="fa-solid fa-tablet"></i></div>
+                            <div class="info-transactions"><p><b>Tablet Samsung</b></p><p>13 Fev 2022 - 22:00</p></div>
+                            <div class="produtos">concluído</div>
                        </div>   
                        <div class="transaction-card">
-                           <div> <i class="fa-solid fa-mobile fa-2xl" style="color: #ff780a;"></i></div>
-                           <div class="info-transactions"><p style="width:150px";><b> Smartphone Samsung</b></p><p>03 Mai 2022 - 9:45AM</p></div>
-                            <div class="produtos">completed</div>
+                           <div class="icone-transacao"><i class="fa-solid fa-mobile"></i></div>
+                           <div class="info-transactions"><p><b>Smartphone Samsung</b></p><p>03 Mai 2022 - 09:45</p></div>
+                            <div class="produtos">concluído</div>
                        </div>
                        <div class="transaction-card">
-                            <div><i class="fa-solid fa-radio fa-2xl" style="color: #ff780a;"></i></div>
-                            <div class="info-transactions"><p style="width:150px"; ><b> JBL Caixa de Som</b></p><p>11 Abr 2022 - 5:00PM</p></div>
-                            <div class="produtos">completed</div>
+                            <div class="icone-transacao"><i class="fa-solid fa-radio"></i></div>
+                            <div class="info-transactions"><p><b>JBL Caixa de Som</b></p><p>11 Abr 2022 - 17:00</p></div>
+                            <div class="produtos">concluído</div>
                        </div>
                        <div class="transaction-card">
-                            <div><i class="fa-solid fa-clock fa-2xl" style="color: #ff780a;"></i></div>
-                            <div class="info-transactions"><p style="width:150px";><b> Apple watch</b></p><p>22 Abr 2022 - 8:07PM</p></div>
-                            <div class="produtos">completed</div>
+                            <div class="icone-transacao"><i class="fa-solid fa-clock"></i></div>
+                            <div class="info-transactions"><p><b>Apple Watch</b></p><p>22 Abr 2022 - 20:07</p></div>
+                            <div class="produtos">concluído</div>
                        </div>
                     </div>
                 </div>
             </div>            
             <div class="sub-container">
-                <h3>Analises</h3>
+                <h3>Análises</h3>
                 <div class="chart-card">
                     <canvas id="myChart2"></canvas>
                 </div>
@@ -187,6 +186,3 @@
     </body>
     <script src="script.js"></script>
 </html>
-<div>
-   
-</div>
