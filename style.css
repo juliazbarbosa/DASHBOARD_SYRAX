@@ -1,6 +1,7 @@
 :root{
     --altura-cards: 450px;
     --cor-fundo-pagina: #f4f5f7;
+    --espaco-topo: 10px;
     --cor-cartao: #ffffff;
     --cor-texto-principal: #222222;
     --cor-texto-secundario: #767a85;
@@ -22,7 +23,7 @@ aside{
 }
 main{
     width: 70%;
-    padding: 10px 20px;
+    padding: var(--espaco-topo) 20px 10px 20px;
     box-sizing: border-box;
 }
 
@@ -51,6 +52,9 @@ header{
     display: flex;
     flex-direction: column;
     position: relative;
+    padding-top: var(--espaco-topo); 
+    margin-top: 22px;
+    box-sizing: border-box;
 }
 .logo{
     position: relative;
@@ -139,12 +143,12 @@ header{
 
 .product-card{
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: var(--cor-cartao);
     box-shadow: var(--sombra-cartao);
     border-radius: 12px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
 }
 
 .transaction-card{
