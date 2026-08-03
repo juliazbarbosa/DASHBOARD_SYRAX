@@ -18,6 +18,4 @@
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)
 
 ## 🧠 Aprendizados e desafios
-Este projeto foi desenvolvido com foco em fixar fundamentos de HTML e CSS aplicados a um layout de dashboard: organização de múltiplas colunas com Flexbox, 
-controle de altura e rolagem interna dos cards, integração com a biblioteca Chart.js para renderização de gráficos dinâmicos 
-e ajuste de alinhamento entre elementos de diferentes alturas.
+Esse projeto foi desenvolvido com foco em fixar fundamentos de HTML e CSS aplicados a um layout de dashboard: organização de múltiplas colunas com Flexbox, controle de altura e rolagem interna dos cards, integração com a biblioteca Chart.js ajuste de alinhamento entre elementos de diferentes dimensões. Trabalho inicialmente um pouco desafiador porém concluído com êxito.
